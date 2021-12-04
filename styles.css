@@ -1,0 +1,31 @@
+.header {
+   padding: 40px;
+   text-align: center;
+   background: #20b2aa; /* 'light sea green' */
+   color: #faf0e6; /* 'linen' */
+   font: ;
+}
+
+.header h1 {
+   font-size: 40px;
+}
+
+.header h2 {
+   font-size: 18px;
+}
+
+.footer {
+   padding: 20px;
+   text-align: center;
+   background: #f08080;
+   color: #faf0e6;
+}
+
+.p {
+   font-size: ;
+   color: ;
+}
+
+.a {
+   color: #faf0e6;
+}
