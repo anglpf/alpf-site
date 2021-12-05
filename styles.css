@@ -13,23 +13,36 @@ body a {
    font-weight: 700;
 }
 
+
+/*** HEADER ***/
+
+.nav-bar {
+   font-size: 14px;
+   font-weight: 100;
+}
+.nav-bar a {
+   font-size: 14px;
+   font-weight: inherit;
+}
+
+
 /*** HEADER ***/
 
 .header {
-   padding: 40px;
+   padding: 30px;
    text-align: center;
    /*background: #20b2aa; /*(38,178,170) 'light sea green'*/
    background-image: linear-gradient(to bottom right, rgba(0,128,128,1), rgba(0,128,128,0.4));
    color: #faf0e6; /* 'linen' */
 }
-
 .header h1 {
    font-size: 40px;
+   line-height: ;
 }
-
 .header h2 {
-   font-size: 20px;
+   font-size: 16px;
    font-weight: 100;
+   line-height: 30%;
 }
 .header a {
    font-size: inherit;
@@ -48,10 +61,10 @@ body a {
    height: 256px;
    border-radius: 50%;
 }
-
 .pro-pic:hover {
    box-shadow: 0 0 2px 1px rgba(0,128,128,0.4);
 }
+
 
 /*** MAIN ***/
 
