@@ -87,7 +87,7 @@ body a {
    margin-left: auto;
    margin-right: auto;
    margin-bottom: 20px;
-   max-width: 750px;
+   max-width: 600px;
    /*display: block;*/
 }
 .main h3 {
@@ -97,13 +97,13 @@ body a {
    line-height: 100%;
 }
 .main p {
-   font-size: 14px;
-   text-align: left;
+   font-size: 15px;
+   text-align: justify;
    font-weight: 300;
    color: inherit;
 }
 .main a {
-   font-size: 14px;
+   font-size: 15px;
    font-weight: 600;
    color: #ff8830;
 }
@@ -113,7 +113,7 @@ body a {
    color: #ff8830; /* mango: RGB(255,136,48) */
 }
 .main ul {
-   font-size: 14px;
+   font-size: 15px;
    text-align: left;
    font-weight: 300;
    color: inherit;
