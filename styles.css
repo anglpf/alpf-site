@@ -105,14 +105,14 @@ body a {
    color: inherit;
 }
 .main a {
-   font-size: 15px;
+   font-size: inherit;
    font-weight: 600;
    color: #ff8830;
 }
 .main em {
    font-style: normal;
    font-weight: 600;
-   color: #ff8830; /* mango: RGB(255,136,48) */
+   /*color: #ff8830; /* mango: RGB(255,136,48) */
 }
 .main ul {
    font-size: 15px;
