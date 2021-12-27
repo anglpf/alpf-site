@@ -110,7 +110,7 @@ body a {
    color: #008b8b; /* dark-cyan */
 }
 .main a:hover {
-   font-weight: 600;
+   /*font-weight: 600;*/
    color: #ff8830; /* mango */
 }
 .main em {
@@ -127,6 +127,42 @@ body a {
 }
 
 
+/*** SIDEBAR ***/
+.sidebar {
+   height: 100%;
+   width: 0;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: lightblue;
+   overflow-x: hidden;
+   transition: 0.5s;
+   padding-top: 60px;
+}
+
+.sidebar div {
+   padding: 8px 8px 8px 30px;
+   font-size: 24px;
+   display: block;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.sidebar .closebtn {
+   position: absolute;
+   top: 0;
+   right: 25px;
+   font-size: 36px;
+}
+
+.openbtn {
+   font-size: 24px;
+   cursor: pointer;
+   background-color: lightblue;
+}
+
+
+
 /*** MUSIC ***/
 .record {
    display: inline;
@@ -138,6 +174,7 @@ body a {
 .record:hover {
    box-shadow: 0 0 2px 1px rgba(255,136,48,0.4);
 }
+
 
 /*** FOOTER ***/
 
