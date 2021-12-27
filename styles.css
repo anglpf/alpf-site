@@ -88,7 +88,7 @@ body a {
    padding: 4px;
    margin-left: auto;
    margin-right: auto;
-   margin-bottom: 20px;
+   margin-bottom: 10px;
    max-width: 600px;
    /*display: block;*/
 }
@@ -106,8 +106,12 @@ body a {
 }
 .main a {
    font-size: inherit;
+   font-weight: inherit;
+   color: #008b8b; /* dark-cyan */
+}
+.main a:hover {
    font-weight: 600;
-   color: #ff8830;
+   color: #ff8830; /* mango */
 }
 .main em {
    font-style: normal;
