@@ -1,8 +1,8 @@
 <html>
 
    <head>
-      <link rel = "stylesheet" type = "text/css" href = "styles.css">
-      <title>miscellaneous mango</title>
+      <link rel = "stylesheet" type = "text/css" href = "../styles.css">
+      <title>title</title>
       <meta charset = "utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -14,18 +14,29 @@
       <div class = "header">
          <!-- NAV BAR -->
          <nav class = "nav-bar">
-            <a href = "index.html">id</a>&nbsp;&nbsp;|&nbsp;
-            <a href = "on-my-mind.html">on my mind</a>&nbsp;&nbsp;|&nbsp;
-            <a href = "playlist.html">playlist</a>
+            <a href = "../index.html">id</a>&nbsp;&nbsp;|&nbsp;
+            <a href = "../on-my-mind.html">on my mind</a>&nbsp;&nbsp;|&nbsp;
+            <a href = "../on-vinyl.html">on vinyl</a>&nbsp;&nbsp;|&nbsp;
+            <a href = "../else.html">else</a>
          </nav>
          <h1>angus l.p.</h1>
          <h2>-- a record / collection --</h2>
       </div>
 
+      <!-- SIDEBAR -->
+      <div class = "sidebar" id = "interests-sidebar">
+         <div class="closebtn" onclick="closeNav()">×</div>
+         <a href = "machine-learning.html">machine learning</a>
+         <a href = "music.html">music</a>
+         <a href = "computers.html">computers</a>
+         <a href = "science.html">science</a>
+      </div>
+
       <!-- MAIN TEXT -->
-      <div class = "main">
-         <h3>Miscellanous.</h3>
-         <p>Under construction...</p>
+      <div class = "main" id = "interests-main">
+         <button class="openbtn" onclick="openNav()">Navigation</button>
+         <h3>Header</h3>
+         <p>Paragraph</p>
       </div>
 
       <!-- FOOTER -->
@@ -38,6 +49,6 @@
       </div>
    </body>
 
-   <script src = "scripts.js"></script>
+   <script src = "sidebar.js"></script>
 
 <html>

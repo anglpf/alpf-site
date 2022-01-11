@@ -98,6 +98,14 @@ body a {
    color: inherit;
    line-height: 100%;
 }
+.main h5 {
+   font-size: 16px;
+   font-weight: 400;
+   text-align: left;
+   text-decoration-line: underline;
+   color: inherit;
+   line-height: 10%;
+}
 .main p {
    font-size: 15px;
    text-align: justify;
